@@ -39,7 +39,8 @@ You can test all endpoints using [Postman](https://www.postman.com/):
 4. Click **Send**.
 5. You should see a list of products in the response.
 
----
+![GET /products example](screenshots/get-products.png)
+
 
 ### 2. POST /cart
 
@@ -67,7 +68,8 @@ You can test all endpoints using [Postman](https://www.postman.com/):
    }
    ```
 
----
+![POST /cart valid example](screenshots/post-cart-valid.png)
+
 
 #### Invalid Product Example
 
@@ -88,7 +90,8 @@ You can test all endpoints using [Postman](https://www.postman.com/):
    }
    ```
 
----
+![POST /cart invalid product example](screenshots/post-cart-invalid-product.png)
+
 
 #### Invalid Quantity Example
 
@@ -109,7 +112,8 @@ You can test all endpoints using [Postman](https://www.postman.com/):
    }
    ```
 
----
+![POST /cart invalid quantity example](screenshots/post-cart-invalid-quantity.png)
+
 
 **Note:**  
 - Always select **JSON** in the body type.
